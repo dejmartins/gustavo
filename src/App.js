@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+function UserProfileCard() {
+  return (
+    <div className="card">
+      <img
+        className="profile-image"
+        src="https://img.freepik.com/free-vector/mysterious-mafia-man-smoking-cigarette_52683-34828.jpg?size=338&ext=jpg&ga=GA1.2.862910268.1661616476"
+        alt="avatar"
+      />
+      <div className="card-name">Mafia Zuri Gustavo</div>
+      <div>The first black mafia who survived the 51-marker course</div>
+    </div>
+  );
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <section className="main-page">
+        <UserProfileCard />
+      </section>
+    </>
   );
 }
 
