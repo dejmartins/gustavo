@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gustavo/static/css/main.760f9846.css",
+    "main.js": "/gustavo/static/js/main.f7aa882f.js",
+    "static/js/787.28cb0dcd.chunk.js": "/gustavo/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/gustavo/index.html",
+    "main.760f9846.css.map": "/gustavo/static/css/main.760f9846.css.map",
+    "main.f7aa882f.js.map": "/gustavo/static/js/main.f7aa882f.js.map",
+    "787.28cb0dcd.chunk.js.map": "/gustavo/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.760f9846.css",
+    "static/js/main.f7aa882f.js"
+  ]
+}
